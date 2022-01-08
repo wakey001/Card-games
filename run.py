@@ -47,6 +47,9 @@ class Player:
     def showHand(self):
         for card in self.hand:
             card.show()
+    
+    def discard(self):
+        return self.hand.pop()
 
 
 
@@ -56,6 +59,6 @@ deck = Deck()
 deck.shuffle()
 # deck.show()
 stefan = Player("stefan")
-stefan.draw(deck).draw(deck)
+stefan.draw(deck).draw(deck).draw(deck)
 stefan.showHand()
 
