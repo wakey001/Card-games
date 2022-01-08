@@ -36,7 +36,7 @@ class Deck():
 deck = Deck()
 # deck.show()
 # deck = Deck()
-# deck.shuffle()
+deck.shuffle()
 # deck.show()
 card = deck.draw()
 card.show()
