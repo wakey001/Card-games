@@ -41,6 +41,7 @@ class Player:
     
     def draw(self, deck):
         self.hand.append(deck.drawCard())
+        return self
     
 
     def showHand(self):
@@ -55,8 +56,6 @@ deck = Deck()
 deck.shuffle()
 # deck.show()
 stefan = Player("stefan")
-stefan.draw(deck)
+stefan.draw(deck).draw(deck)
 stefan.showHand()
 
-card = deck.drawCard()
-card.show()
