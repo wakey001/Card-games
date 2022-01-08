@@ -29,8 +29,24 @@ class Deck():
             random_num = random.randint(0, i)
             self.cards[i], self.cards[random_num] = self.cards[random_num], self.cards[i]
 
-    def draw(self):
+    def drawCard(self):
         return self.cards.pop()
+
+
+class Player:
+    def __init__(self, name):
+        self.name = name
+        self.hand = []
+    
+    
+    def draw(self, deck):
+        self.hand.append(deck.drawCard())
+    
+
+    def showHand(self):
+        for card in self.hand:
+            card.show()
+
 
 
 deck = Deck()
@@ -38,5 +54,9 @@ deck = Deck()
 # deck = Deck()
 deck.shuffle()
 # deck.show()
-card = deck.draw()
+stefan = Player("stefan")
+stefan.draw(deck)
+stefan.showHand()
+
+card = deck.drawCard()
 card.show()
