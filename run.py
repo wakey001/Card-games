@@ -19,8 +19,8 @@ class Deck():
 
     def show(self):
         for c in self.cards:
-            c.show
-
-        
+            c.show()
+ 
+       
 deck = Deck()
 deck.show()
