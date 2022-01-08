@@ -16,8 +16,9 @@ class Deck():
     
     def build(self):
         for c in ["Hearts", "Clubs", "Diamonds", "Spades"]:
-            for i in range(1, 53):
+            for i in range(1, 14):
                 print(i, "of", c)
+
 
 
 
