@@ -29,9 +29,14 @@ class Deck():
             random_num = random.randint(0, i)
             self.cards[i], self.cards[random_num] = self.cards[random_num], self.cards[i]
 
+    def draw(self):
+        return self.cards.pop()
 
-# deck = Deck()
-# deck.show()
+
 deck = Deck()
-deck.shuffle()
-deck.show()
+# deck.show()
+# deck = Deck()
+# deck.shuffle()
+# deck.show()
+card = deck.draw()
+card.show()
