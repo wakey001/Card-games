@@ -7,5 +7,18 @@ class Card():
         print("{} of {}".format(self.value, self.suit))
 
 
-card = Card("Diamonds", 8)
-card.show()
+
+
+class Deck():
+    def __init__(self):
+        self.cards = []
+        self.build()
+    
+    def build(self):
+        for c in ["Hearts", "Clubs", "Diamonds", "Spades"]:
+            print(c)
+
+deck = Deck()
+
+
+
