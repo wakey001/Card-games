@@ -35,11 +35,11 @@
 ## Features to be implemented
 # Technologies used
 ## Languages
-* [HTML]() for the structure of the site
-* [CSS]() for the design of the site
-* [JavaScript]() was built into the template supplied by Code Institute
-* [[Python]() for the game code
-* [Markdown]() for the content in my README file
+* [HTML](https://en.wikipedia.org/wiki/HTML5) for the structure of the site
+* [CSS](https://en.wikipedia.org/wiki/CSS) for the design of the site
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript) was built into the template supplied by Code Institute
+* [Python](https://en.wikipedia.org/wiki/Python_(programming_language)) for the game code
+* [Markdown](https://en.wikipedia.org/wiki/Markdown) for the content in my README file
 ## Libaries and frameworks
 * For selecting a random card from the deck python random library
 ## Tools
