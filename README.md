@@ -43,14 +43,14 @@
 ## Libaries and frameworks
 * For selecting a random card from the deck python random library
 ## Tools
-* For construction Gitpod
-* For wireframes Balsamic
-* For python validation PEP8 online
-* For HTML validation W3C HTML Validation Service
-* For CSS validation W3C CSS Validation Service
-* For python code validation PEP8 online
-* For general code queries W3Schools
-* For spell checking Grammarly
+* For construction [Gitpod]()
+* For wireframes [Balsamic](https://balsamiq.com/wireframes/)
+* For python validation [PEP8 online](http://pep8online.com/)
+* For HTML validation [W3C HTML Validation Service](https://validator.w3.org/)
+* For CSS validation [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+* For python code validation [PEP8 online](http://pep8online.com/)
+* For general code queries [W3Schools](https://www.w3schools.com/)
+* For spell checking [Grammarly](https://www.grammarly.com/?&utm_source=google&utm_medium=cpc&utm_campaign=10531689996&utm_targetid=aud-332195722204:dsa-915389969968&gclid=CjwKCAiArOqOBhBmEiwAsgeLmf6WBpNM8xWU9Gif_6buwExECbE12BjfjeGQ3iyruQf4xasnRCJfZxoCW6QQAvD_BwE&gclsrc=aw.ds)
 
 
 # Testing
