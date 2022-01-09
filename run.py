@@ -27,7 +27,8 @@ class Deck():
     def shuffle(self):
         for i in range(len(self.cards)-1, 0, -1):
             random_num = random.randint(0, i)
-            self.cards[i], self.cards[random_num] = self.cards[random_num], self.cards[i]
+            self.cards[i], self.cards[random_num] = \
+                self.cards[random_num], self.cards[i]
 
     def drawCard(self):
         return self.cards.pop()
