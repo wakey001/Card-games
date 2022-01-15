@@ -25,12 +25,12 @@ class Deck():
                 self.cards.append(Card(s, v))
 
     def show(self):
-        '''A function to show all cards in the deck self.cards list.'''
+        "A function to show all cards in the deck self.cards list."
         for c in self.cards:
             c.show()
 
     def shuffle(self):
-        '''Shuffles the cards in self.cards using the fisher yates method.'''
+        "Shuffles the cards in self.cards using the fisher yates method."
         for i in range(len(self.cards)-1, 0, -1):
             random_num = random.randint(0, i)
             self.cards[i], self.cards[random_num] = \
@@ -52,20 +52,27 @@ class Player:
         return self
   
     def showHand(self):
-        '''Shows the cards in the players hand, self.hand.'''
+        "Shows the cards in the players hand, self.hand."
         for card in self.hand:
             card.show()
 
     def discard(self):
-        '''Discards a the last card in self.hand.'''
+        "Discards a the last card in self.hand."
         return self.hand.pop()
 
-
     def Play_game(self):
+        "Deal 26 cards to both player and computer"
         pass
 
 
 deck = Deck()
-deck.shuffle()
-deck.show()
-
+#deck.shuffle()
+#deck.show()
+bob = Player("Bob")
+"add string function for player"
+cpu = Player("cpu")
+"add string function for computer"
+bob.draw(deck).draw(deck)
+bob.showHand()
+cpu.draw(deck).draw(deck)
+cpu.showHand()
